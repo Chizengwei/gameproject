@@ -1,0 +1,29 @@
+<component name="InspectionProjectProfileManager">
+  <profile version="1.0">
+    <option name="myName" value="Project Default" />
+    <inspection_tool class="PyPep8NamingInspection" enabled="true" level="WEAK WARNING" enabled_by_default="true">
+      <option name="ignoredErrors">
+        <list>
+          <option value="N806" />
+          <option value="N803" />
+          <option value="N802" />
+          <option value="N801" />
+        </list>
+      </option>
+    </inspection_tool>
+    <inspection_tool class="PyTypeCheckerInspection" enabled="true" level="WEAK WARNING" enabled_by_default="true" />
+    <inspection_tool class="PyUnresolvedReferencesInspection" enabled="true" level="WARNING" enabled_by_default="true">
+      <option name="ignoredIdentifiers">
+        <list>
+          <option value="pygame.sprite.Sprite.checkpoint_type" />
+          <option value="pygame.sprite.Sprite.enemy_groupid" />
+          <option value="pygame.sprite.Sprite.die" />
+          <option value="pygame.sprite.Sprite.go_die" />
+          <option value="pygame.sprite.Sprite.name" />
+          <option value="pygame.sprite.Sprite.state" />
+          <option value="dict.go_die" />
+        </list>
+      </option>
+    </inspection_tool>
+  </profile>
+</component>
